@@ -1,0 +1,25 @@
+{
+    "name": "dark-elixir",
+    "displayName": "Dark Elixir",
+    "description": "Simple dark theme",
+    "version": "0.0.1",
+    "publisher": "rkma",
+    "repository": {
+      "url": "https://github.com/ricmarinovic/dark-elixir"
+    },
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark Elixir",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dark Elixir-color-theme.json"
+            }
+        ]
+    }
+}
