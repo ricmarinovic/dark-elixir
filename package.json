@@ -2,10 +2,10 @@
     "name": "dark-elixir",
     "displayName": "Dark Elixir",
     "description": "Simple dark theme",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "rkma",
     "repository": {
-      "url": "https://github.com/ricmarinovic/dark-elixir"
+        "url": "https://github.com/ricmarinovic/dark-elixir"
     },
     "engines": {
         "vscode": "^1.46.0"
