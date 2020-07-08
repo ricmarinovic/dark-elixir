@@ -180,6 +180,9 @@
     "minimap.findMatchHighlight": "#603a9c",
     "minimap.selectionHighlight": "#ffffff",
     "minimap.warningHighlight": "#d8a13b",
+    "minimapGutter.addedBackground": "#83ce4d",
+    "minimapGutter.deletedBackground": "#ff615a",
+    "minimapGutter.modifiedBackground": "#d8a13b",
     "notificationCenter.border": "#333333",
     "notificationCenterHeader.background": "#202020",
     "notificationCenterHeader.foreground": "#cccccc",
@@ -218,9 +221,9 @@
     "quickInput.background": "#151515",
     "quickInput.foreground": "#cccccc",
     "scrollbar.shadow": "#66666633",
-    "scrollbarSlider.activeBackground": "#3333335a",
-    "scrollbarSlider.background": "#3333335a",
-    "scrollbarSlider.hoverBackground": "#333333a3",
+    "scrollbarSlider.activeBackground": "#3333336a",
+    "scrollbarSlider.background": "#33333380",
+    "scrollbarSlider.hoverBackground": "#333333cc",
     "selection.background": "#603a9c99",
     "settings.checkboxBackground": "#181818",
     "settings.checkboxBorder": "#333333",
@@ -321,11 +324,25 @@
       }
     },
     {
+      "name": "Special",
+      "scope": [
+        "keyword.other.special-method",
+        "keyword.control.pseudo-method",
+        "keyword.other.unsafe.rust",
+        "support.function.log.rust",
+        "support.type.python",
+        "support.type.exception.python"
+      ],
+      "settings": {
+        "foreground": "#df8c8c"
+      }
+    },
+    {
       "name": "Class",
       "scope": [
-        "entity.name.type", // rb class, ex mod def
-        "variable.other.constant", // rb class, ex mod call
-        "support.class", // ruby class call
+        "entity.name.type",
+        "variable.other.constant",
+        "support.class",
         "support.type",
         "support.constant.core.rust",
         "storage.class.std.rust",
@@ -364,8 +381,8 @@
     {
       "name": "Symbol",
       "scope": [
-        "constant.other.symbol", // ex symbol
-        "constant.language.symbol", // rb symbol
+        "constant.other.symbol",
+        "constant.language.symbol",
         "variable.other.readwrite",
         "storage.modifier.lifetime.rust",
         "storage.modifier.static.rust",
@@ -386,8 +403,8 @@
     {
       "name": "Constant",
       "scope": [
-        "constant.language", // ex/rb bool, rb symbol
-        "variable.language", // ex __MODULE__, rb self, js this
+        "constant.language",
+        "variable.language",
         "variable.other.object.ruby",
         "support.constant.core.rust",
         "support.variable.magic.python",

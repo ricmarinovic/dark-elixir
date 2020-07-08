@@ -2,6 +2,12 @@
 
 All notable changes to the "dark-elixir" extension will be documented in this file.
 
+## [0.0.4] - 2020-07-08
+
+- Update minimap to show git modifications (conflicts).
+- Add special color.
+- Increase contrast of scrollbars.
+
 ## [0.0.3] - 2020-07-06
 
 - Increase contrast of borders and space markers.
