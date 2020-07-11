@@ -2,6 +2,13 @@
 
 All notable changes to the "dark-elixir" extension will be documented in this file.
 
+## [Unpublished]
+
+- Increase contrast of panel border.
+- Add color to editor group border.
+- Add highlight color to focused empty editor group.
+- Add color to special variables.
+
 ## [0.0.4] - 2020-07-08
 
 - Update minimap to show git modifications (conflicts).

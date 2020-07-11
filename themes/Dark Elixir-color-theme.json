@@ -60,16 +60,16 @@
     "editor.background": "#151515",
     "editor.findMatchBackground": "#603a9cdd",
     "editor.findMatchBorder": "#603a9c",
-    "editor.findMatchHighlightBackground": "#603a9c4c",
-    "editor.findMatchHighlightBorder": "#603a9c4c",
-    "editor.findRangeHighlightBackground": "#6060603a",
+    "editor.findMatchHighlightBackground": "#603a9c99",
+    "editor.findMatchHighlightBorder": "#603a9c",
+    "editor.findRangeHighlightBackground": "#30303090",
     "editor.foreground": "#cccccc",
     "editor.hoverHighlightBackground": "#60606070",
     "editor.inactiveSelectionBackground": "#6060603a",
     "editor.lineHighlightBackground": "#2020207a",
     "editor.lineHighlightBorder": "#202020",
-    "editor.rangeHighlightBackground": "#20202080",
-    "editor.rangeHighlightBorder": "#222222",
+    "editor.rangeHighlightBackground": "#3030309a",
+    "editor.rangeHighlightBorder": "#603a9c",
     "editor.selectionBackground": "#60606070",
     "editor.selectionHighlightBackground": "#33333370",
     "editor.selectionHighlightBorder": "#404040",
@@ -77,12 +77,15 @@
     "editor.snippetTabstopHighlightBackground": "#333333dd",
     "editorBracketMatch.background": "#000000",
     "editorBracketMatch.border": "#707070",
+    "editorCursor.background": "#000000",
     "editorCursor.foreground": "#ffffff",
     "editorError.border": "#ff615a00",
     "editorError.foreground": "#ff615a",
     "editorGroup.border": "#303030",
     "editorGroup.dropBackground": "#202020",
     "editorGroup.emptyBackground": "#151515",
+    "editorGroup.focusedEmptyBorder": "#603a9c",
+    "editorGroupHeader.border": "#303030",
     "editorGroupHeader.noTabsBackground": "#151515",
     "editorGroupHeader.tabsBackground": "#151515",
     "editorGroupHeader.tabsBorder": "#151515",
@@ -95,11 +98,13 @@
     "editorHoverWidget.border": "#333333",
     "editorIndentGuide.activeBackground": "#444444",
     "editorIndentGuide.background": "#292929",
+    "editorLightBulb.foreground": "#d8a13b",
+    "editorLightBulbAutoFix.foreground": "#d8a13b",
     "editorLineNumber.activeForeground": "#cccccc",
     "editorLineNumber.foreground": "#3c3c3c",
     "editorLink.activeForeground": "#a26eea",
-    "editorOverviewRuler.background": "#151515",
     "editorOverviewRuler.addedForeground": "#83ce4d",
+    "editorOverviewRuler.background": "#151515",
     "editorOverviewRuler.border": "#15151500",
     "editorOverviewRuler.bracketMatchForeground": "#ffffff",
     "editorOverviewRuler.commonContentForeground": "#60606066",
@@ -119,12 +124,12 @@
     "editorSuggestWidget.foreground": "#cccccc",
     "editorSuggestWidget.highlightForeground": "#a26eea",
     "editorSuggestWidget.selectedBackground": "#333333",
+    "editorUnnecessaryCode.opacity": "#00000077",
+    "editorWarning.foreground": "#d8a13b",
     "editorWhitespace.foreground": "#333333",
     "editorWidget.background": "#202020",
     "editorWidget.border": "#333333",
     "editorWidget.foreground": "#cccccc",
-    "editorWarning.foreground": "#d8a13b",
-    "editorUnnecessaryCode.opacity": "#00000077",
     "errorForeground": "#ff615a",
     "extensionButton.prominentBackground": "#603a9c99",
     "extensionButton.prominentForeground": "#ffffff",
@@ -154,7 +159,6 @@
     "inputValidation.warningBorder": "#d8a13b",
     "list.activeSelectionBackground": "#333333",
     "list.activeSelectionForeground": "#ffffff",
-    "list.inactiveFocusBackground": "#333333",
     "list.dropBackground": "#333333",
     "list.errorForeground": "#ff615a",
     "list.filterMatchBackground": "#603a9c99",
@@ -163,6 +167,7 @@
     "list.highlightForeground": "#a26eea",
     "list.hoverBackground": "#22222299",
     "list.hoverForeground": "#cccccc",
+    "list.inactiveFocusBackground": "#333333",
     "list.inactiveSelectionBackground": "#222222",
     "list.inactiveSelectionForeground": "#cccccc",
     "list.warningForeground": "#d8a13b",
@@ -195,7 +200,7 @@
     "notificationsWarningIcon.foreground": "#d8a13b",
     "notificationToast.border": "#333333",
     "panel.background": "#151515",
-    "panel.border": "#202020",
+    "panel.border": "#303030",
     "panel.dropBorder": "#606060",
     "panelTitle.activeBorder": "#cccccc",
     "panelTitle.activeForeground": "#cccccc",
@@ -218,28 +223,34 @@
     "problemsInfoIcon.foreground": "#83afe5",
     "problemsWarningIcon.foreground": "#d8a13b",
     "progressBar.background": "#603a9c",
-    "quickInput.background": "#151515",
+    "quickInput.background": "#181818",
     "quickInput.foreground": "#cccccc",
-    "scrollbar.shadow": "#66666633",
+    "scrollbar.shadow": "#6666667a",
     "scrollbarSlider.activeBackground": "#3333336a",
     "scrollbarSlider.background": "#33333380",
     "scrollbarSlider.hoverBackground": "#333333cc",
     "selection.background": "#603a9c99",
     "settings.checkboxBackground": "#181818",
     "settings.checkboxBorder": "#333333",
-    "settings.checkboxForeground": "#cccccc",
+    "settings.checkboxForeground": "#ffffff",
     "settings.dropdownBackground": "#181818",
-    "settings.dropdownBorder": "#202020",
+    "settings.dropdownBorder": "#333333",
     "settings.dropdownForeground": "#cccccc",
     "settings.dropdownListBorder": "#333333",
     "settings.headerForeground": "#ffffff",
     "settings.modifiedItemIndicator": "#603a9c",
-    "sideBarSectionHeader.border": "#333333",
+    "settings.numberInputBackground": "#181818",
+    "settings.numberInputBorder": "#333333",
+    "settings.numberInputForeground": "#cccccc",
+    "settings.textInputBackground": "#181818",
+    "settings.textInputBorder": "#333333",
+    "settings.textInputForeground": "#cccccc",
     "sideBar.background": "#151515",
     "sideBar.border": "#303030",
     "sideBar.dropBackground": "#202020",
     "sideBar.foreground": "#cccccc",
     "sideBarSectionHeader.background": "#202020",
+    "sideBarSectionHeader.border": "#333333",
     "sideBarSectionHeader.foreground": "#cccccc",
     "sideBarTitle.foreground": "#cccccc",
     "statusBar.background": "#151515",
@@ -281,6 +292,7 @@
     "terminal.ansiRed": "#df8c8c",
     "terminal.ansiWhite": "#e5e9f0",
     "terminal.ansiYellow": "#ebcb8b",
+    "terminal.border": "#333333",
     "textLink.activeForeground": "#a26eeaa3",
     "textLink.foreground": "#a26eea",
     "titleBar.activeBackground": "#151515",
@@ -289,7 +301,7 @@
     "titleBar.inactiveBackground": "#151515",
     "titleBar.inactiveForeground": "#ffffff",
     "tree.indentGuidesStroke": "#333333",
-    "widget.shadow": "#000000",
+    "widget.shadow": "#000000"
   },
   "tokenColors": [
     {
@@ -306,7 +318,10 @@
     {
       "name": "Documentation",
       "scope": [
-        "comment.documentation"
+        "comment.documentation",
+        "meta.attribute.rust",
+        "comment.line.documentation.rust",
+        "comment.block.documentation.rust"
       ],
       "settings": {
         "foreground": "#8b98ac"
@@ -324,7 +339,7 @@
       }
     },
     {
-      "name": "Special",
+      "name": "Special keywords",
       "scope": [
         "keyword.other.special-method",
         "keyword.control.pseudo-method",
@@ -340,8 +355,8 @@
     {
       "name": "Class",
       "scope": [
-        "entity.name.type",
         "variable.other.constant",
+        "entity.name.type",
         "support.class",
         "support.type",
         "support.constant.core.rust",
@@ -352,7 +367,9 @@
         "variable.other.readwrite.alias.js",
         "entity.other.inherited-class.js",
         "string.quoted.double.include.c",
+        "string.quoted.double.include.cpp",
         "string.quoted.other.lt-gt.include.c",
+        "string.quoted.other.lt-gt.include.cpp",
         "constant.other.elm"
       ],
       "settings": {
@@ -383,7 +400,6 @@
       "scope": [
         "constant.other.symbol",
         "constant.language.symbol",
-        "variable.other.readwrite",
         "storage.modifier.lifetime.rust",
         "storage.modifier.static.rust",
         "meta.object-literal.key.js",
@@ -401,17 +417,38 @@
       }
     },
     {
+      "name": "Special variables",
+      "scope": [
+        "variable.language",
+        "variable.other.readwrite",
+        "variable.other.object.ruby",
+      ],
+      "settings": {
+        "foreground": "#9a93e1"
+      }
+    },
+    {
       "name": "Constant",
       "scope": [
         "constant.language",
-        "variable.language",
-        "variable.other.object.ruby",
-        "support.constant.core.rust",
-        "support.variable.magic.python",
-        "variable.parameter.function.language.special.self.python"
+        "constant.numeric",
       ],
       "settings": {
         "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": [
+        "source.elixir.embedded",
+        "meta.embedded",
+        "variable.parameter.function.ruby",
+        "variable.other.readwrite.js",
+        "variable.other.constant.js",
+        "variable.parameter.js"
+      ],
+      "settings": {
+        "foreground": "#cccccc"
       }
     },
     {
@@ -449,30 +486,14 @@
       }
     },
     {
-      "name": "Interpolation embedded",
-      "scope": [
-        "source.elixir.embedded",
-        "meta.embedded"
-      ],
-      "settings": {
-        "foreground": "#bbbbbb"
-      }
-    },
-    {
-      "name": "Number",
-      "scope": [
-        "constant.numeric"
-      ],
-      "settings": {
-        "foreground": "#ffffff"
-      }
-    },
-    {
       "name": "Operator",
       "scope": [
         "keyword.operator.logical",
         "keyword.operator.arithmetic",
+        "keyword.operator.other",
         "punctuation.definition.variable",
+        "punctuation.separator.pointer-access",
+        "punctuation.separator.key-value",
       ],
       "settings": {
         "foreground": "#ebcb8b"
@@ -482,9 +503,11 @@
       "name": "Separator",
       "scope": [
         "punctuation.section",
-        "punctuation.separator.variable.ruby", // rb || block
-        "variable.other.anonymous.elixir", // ex &
-        "punctuation.separator.key-value",
+        "punctuation.definition.map.elixir",
+        "punctuation.separator.variable.ruby",
+        "punctuation.definition.begin.bracket",
+        "punctuation.definition.end.bracket",
+        "variable.other.anonymous.elixir",
       ],
       "settings": {
         "foreground": "#ffffff"
