@@ -419,17 +419,17 @@
     {
       "name": "Special variables",
       "scope": [
-        "variable.language",
         "variable.other.readwrite",
         "variable.other.object.ruby",
       ],
       "settings": {
-        "foreground": "#9a93e1"
+        "foreground": "#867edf"
       }
     },
     {
       "name": "Constant",
       "scope": [
+        "variable.language",
         "constant.language",
         "constant.numeric",
       ],

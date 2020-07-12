@@ -2,7 +2,11 @@
 
 All notable changes to the "dark-elixir" extension will be documented in this file.
 
-## [Unpublished]
+## [0.0.6] - 2020-07-11
+
+- Update special variables color.
+
+## [0.0.5] - 2020-07-11
 
 - Increase contrast of panel border.
 - Add color to editor group border.
