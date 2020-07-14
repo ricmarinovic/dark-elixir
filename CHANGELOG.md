@@ -2,6 +2,11 @@
 
 All notable changes to the "dark-elixir" extension will be documented in this file.
 
+## [0.0.7] - 2020-07-14
+
+- Change background color of search match.
+- Update statusbar colors.
+
 ## [0.0.6] - 2020-07-11
 
 - Update special variables color.
