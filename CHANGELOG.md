@@ -2,6 +2,13 @@
 
 All notable changes to the "dark-elixir" extension will be documented in this file.
 
+## [0.0.8] - 2020-07-21
+
+- Add color to numbers.
+- Dim foreground color.
+- Update operator colors.
+- Semantic colors for C.
+
 ## [0.0.7] - 2020-07-14
 
 - Change background color of search match.

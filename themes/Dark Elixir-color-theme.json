@@ -26,6 +26,7 @@
   8b98ac                 cyan
   8ea9d1                 blue
   c48ed1                 magenta
+  867edf                 purple
   df8c8c                 red
   ebcb8b                 yellow
   8ad092                 bright green
@@ -63,7 +64,7 @@
     "editor.findMatchHighlightBackground": "#603a9c99",
     "editor.findMatchHighlightBorder": "#603a9c",
     "editor.findRangeHighlightBackground": "#30303090",
-    "editor.foreground": "#cccccc",
+    "editor.foreground": "#c0c0c0",
     "editor.foldBackground": "#33333390",
     "editor.hoverHighlightBackground": "#60606070",
     "editor.inactiveSelectionBackground": "#6060603a",
@@ -360,7 +361,6 @@
         "entity.name.type",
         "support.class",
         "support.type",
-        "support.constant.core.rust",
         "storage.class.std.rust",
         "support.class.builtin.js",
         "support.constant.math.js",
@@ -405,13 +405,12 @@
         "storage.modifier.static.rust",
         "meta.object-literal.key.js",
         "storage.type.core.rust",
-        "meta.type_params.rust",
         "support.constant.elm",
         "support.variable.property.js",
         "variable.other.object.property.js",
         "variable.other.property.js",
         "support.variable.property.dom.js",
-        "storage.type.c"
+        "storage.type.built-in"
       ],
       "settings": {
         "foreground": "#8b98ac"
@@ -422,6 +421,8 @@
       "scope": [
         "variable.other.readwrite",
         "variable.other.object.ruby",
+        "support.constant.core.rust",
+        "variable.language.rust"
       ],
       "settings": {
         "foreground": "#867edf"
@@ -432,7 +433,6 @@
       "scope": [
         "variable.language",
         "constant.language",
-        "constant.numeric",
       ],
       "settings": {
         "foreground": "#ffffff"
@@ -449,7 +449,7 @@
         "variable.parameter.js"
       ],
       "settings": {
-        "foreground": "#cccccc"
+        "foreground": "#c0c0c0"
       }
     },
     {
@@ -493,9 +493,17 @@
         "keyword.operator.arithmetic",
         "keyword.operator.other",
         "punctuation.definition.variable",
-        "punctuation.separator.pointer-access",
         "punctuation.separator.key-value",
         "keyword.operator.sigil.rust"
+      ],
+      "settings": {
+        "foreground": "#dba849"
+      }
+    },
+    {
+      "name": "Numbers",
+      "scope": [
+        "constant.numeric"
       ],
       "settings": {
         "foreground": "#ebcb8b"
@@ -507,6 +515,7 @@
         "punctuation.section",
         "punctuation.definition.map.elixir",
         "punctuation.separator.variable.ruby",
+        "punctuation.separator.pointer-access",
         "punctuation.definition.begin.bracket",
         "punctuation.definition.end.bracket",
         "variable.other.anonymous.elixir",
@@ -613,7 +622,7 @@
     {
       "name": "Markup separator",
       "scope": [
-        "beginning.punctuation.definition.list",
+        "punctuation.definition.list.begin.markdown",
         "punctuation.definition.heading.markdown",
         "punctuation.definition.italic.markdown",
         "punctuation.definition.bold.markdown",
@@ -635,8 +644,12 @@
         "punctuation.definition.raw.markdown"
       ],
       "settings": {
-        "foreground": "#6ec477"
+        "foreground": "#71945c"
       }
     }
-  ]
+  ],
+  "semanticTokenColors": {
+    "variable": "#c0c0c0",
+    "type": "#8b98ac"
+  }
 }
