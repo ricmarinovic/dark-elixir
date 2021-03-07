@@ -1,6 +1,8 @@
 # Change Log
 
-All notable changes to the "dark-elixir" extension will be documented in this file.
+## [0.0.11] - 2021-03-06
+
+- Update quickinput list focus background after breaking change.
 
 ## [0.0.8] - 2020-07-21
 
