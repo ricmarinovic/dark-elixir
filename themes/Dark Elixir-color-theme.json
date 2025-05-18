@@ -146,7 +146,8 @@
     "gitDecoration.addedResourceForeground": "#83ce4d",
     "gitDecoration.conflictingResourceForeground": "#a26eea",
     "gitDecoration.deletedResourceForeground": "#ff615a",
-    "gitDecoration.ignoredResourceForeground": "#8c8c8c",
+    // TODO: change this:
+    "gitDecoration.ignoredResourceForeground": "#606060",
     "gitDecoration.modifiedResourceForeground": "#ebcb8b",
     "gitDecoration.submoduleResourceForeground": "#8db9e2",
     "gitDecoration.untrackedResourceForeground": "#73c991",
@@ -271,18 +272,19 @@
     "statusBar.noFolderForeground": "#cccccc",
     "statusBarItem.activeBackground": "#151515",
     "statusBarItem.hoverBackground": "#333333",
-    "tab.activeBackground": "#222222",
+    "tab.activeBackground": "#303030",
     "tab.activeBorder": "#603a9c",
     "tab.activeForeground": "#ffffff",
     "tab.border": "#151515",
     "tab.hoverBackground": "#222222",
     "tab.inactiveBackground": "#151515",
-    "tab.inactiveForeground": "#404040",
-    "tab.unfocusedActiveBackground": "#202020",
+    // TODO: change this:
+    "tab.inactiveForeground": "#808080",
+    "tab.unfocusedActiveBackground": "#222222",
     "tab.unfocusedActiveBorder": "#151515",
-    "tab.unfocusedActiveForeground": "#404040",
+    "tab.unfocusedActiveForeground": "#808080",
     "tab.unfocusedInactiveBackground": "#151515",
-    "tab.unfocusedInactiveForeground": "#404040",
+    "tab.unfocusedInactiveForeground": "#707070",
     "terminal.ansiBlack": "#3b4252",
     "terminal.ansiBlue": "#83afe5",
     "terminal.ansiBrightBlack": "#4c566a",
@@ -305,8 +307,8 @@
     "titleBar.activeBackground": "#151515",
     "titleBar.activeForeground": "#ffffff",
     "titleBar.border": "#202020",
-    "titleBar.inactiveBackground": "#151515",
-    "titleBar.inactiveForeground": "#ffffff",
+    // "titleBar.inactiveBackground": "#151515",
+    // "titleBar.inactiveForeground": "#ffffff",
     "tree.indentGuidesStroke": "#333333",
     "widget.shadow": "#000000"
   },
@@ -426,12 +428,13 @@
     {
       "name": "Special variables",
       "scope": [
-        "support.function.builtin.zig",
         "variable.other.readwrite",
         "variable.other.constant.elixir",
         "variable.other.object.ruby",
+        "variable.language.rust",
         "support.constant.core.rust",
-        "variable.language.rust"
+        "support.function.builtin.zig",
+        "entity.name.function.preprocessor.c"
       ],
       "settings": {
         "foreground": "#867edf"
@@ -450,11 +453,13 @@
     {
       "name": "Variable",
       "scope": [
-        "variable.other.readwrite.elixir",
         "source.elixir.embedded",
-        "meta.interpolation.rust",
         "meta.embedded",
+        "meta.interpolation.rust",
         "variable.parameter.function.ruby",
+        "variable.other.local.c",
+        "variable.other.readwrite.c",
+        "variable.other.readwrite.elixir",
         "variable.other.readwrite.js",
         "variable.other.constant.js",
         "variable.parameter.js"
@@ -664,12 +669,12 @@
     }
   ],
   "semanticTokenColors": {
-    "comment": "#666666",
-    "keyword": "#ffffff",
-    "macro": "#867edf",
-    "class": "#c48ed1",
-    "type": "#c48ed1",
-    "function": "#8ea9d1",
-    "variable": "#c0c0c0"
+    // "comment": "#666666",
+    // "keyword": "#ffffff",
+    // "macro": "#867edf",
+    // "class": "#c48ed1",
+    // "type": "#c48ed1",
+    // "function": "#8ea9d1",
+    // "variable": "#c0c0c0"
   }
 }
