@@ -1,5 +1,13 @@
 # Change Log
 
+## [0.2.1] - 2025-05-19
+
+- Update inlay editor hints colors to match comments.
+
+## [0.2.0] - 2025-05-18
+
+- Add colors to zig and c.
+
 ## [0.0.11] - 2021-03-06
 
 - Update quickinput list focus background after breaking change.
