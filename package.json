@@ -2,7 +2,7 @@
     "name": "dark-elixir",
     "displayName": "Dark Elixir",
     "description": "Simple dark theme",
-    "version": "0.0.12",
+    "version": "0.1.0",
     "publisher": "rkma",
     "repository": {
         "url": "https://github.com/ricmarinovic/dark-elixir"
