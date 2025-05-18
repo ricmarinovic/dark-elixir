@@ -31,6 +31,10 @@
   ebcb8b                 yellow
   8ad092                 bright green
   6ec477                 green
+
+  references
+
+  https://code.visualstudio.com/api/references/theme-color#merge-conflicts-colors
  */
 {
   "name": "Dark Elixir",
@@ -64,8 +68,8 @@
     "editor.findMatchHighlightBackground": "#603a9c99",
     "editor.findMatchHighlightBorder": "#603a9c",
     "editor.findRangeHighlightBackground": "#30303090",
-    "editor.foreground": "#c0c0c0",
     "editor.foldBackground": "#33333390",
+    "editor.foreground": "#c0c0c0",
     "editor.hoverHighlightBackground": "#60606070",
     "editor.inactiveSelectionBackground": "#6060603a",
     "editor.lineHighlightBackground": "#2020207a",
@@ -323,7 +327,7 @@
       "scope": [
         "comment.documentation",
         "meta.attribute.rust",
-        "comment.line.documentation.rust",
+        "comment.line.documentation",
         "comment.block.documentation.rust"
       ],
       "settings": {
@@ -346,6 +350,8 @@
       "scope": [
         "keyword.other.special-method",
         "keyword.control.pseudo-method",
+        "keyword.control.directive",
+        "keyword.control.flow.zig",
         "keyword.other.unsafe.rust",
         "support.function.log.rust",
         "support.type.python",
@@ -385,7 +391,6 @@
         "entity.name.function",
         "entity.name.function-call",
         "variable.other.anonymous",
-        "punctuation.definition.parameters",
         "entity.name.function.js",
         "punctuation.accessor.js",
         "meta.brace.round.js",
@@ -411,6 +416,7 @@
         "variable.other.object.property.js",
         "variable.other.property.js",
         "support.variable.property.dom.js",
+        "keyword.type",
         "storage.type.built-in"
       ],
       "settings": {
@@ -420,6 +426,7 @@
     {
       "name": "Special variables",
       "scope": [
+        "support.function.builtin.zig",
         "variable.other.readwrite",
         "variable.other.constant.elixir",
         "variable.other.object.ruby",
@@ -445,6 +452,7 @@
       "scope": [
         "variable.other.readwrite.elixir",
         "source.elixir.embedded",
+        "meta.interpolation.rust",
         "meta.embedded",
         "variable.parameter.function.ruby",
         "variable.other.readwrite.js",
@@ -482,7 +490,9 @@
       "name": "Interpolation / Character escape",
       "scope": [
         "constant.character.escape",
+        "constant.other.placeholder.c",
         "punctuation.section.embedded",
+        "punctuation.definition.interpolation",
         "punctuation.definition.template-expression"
       ],
       "settings": {
@@ -492,11 +502,13 @@
     {
       "name": "Operator",
       "scope": [
+        "punctuation.definition.variable",
+        "punctuation.separator.key-value",
+        "punctuation.separator.pointer-access",
         "keyword.operator.logical",
         "keyword.operator.arithmetic",
         "keyword.operator.other",
-        "punctuation.definition.variable",
-        "punctuation.separator.key-value",
+        "keyword.operator.c",
         "keyword.operator.sigil.rust"
       ],
       "settings": {
@@ -518,7 +530,7 @@
         "punctuation.section",
         "punctuation.definition.map.elixir",
         "punctuation.separator.variable.ruby",
-        "punctuation.separator.pointer-access",
+        // "punctuation.separator.pointer-access",
         "punctuation.definition.begin.bracket",
         "punctuation.definition.end.bracket",
         "variable.other.anonymous.elixir",
@@ -652,7 +664,12 @@
     }
   ],
   "semanticTokenColors": {
-    "variable": "#c0c0c0",
-    "type": "#8b98ac"
+    "comment": "#666666",
+    "keyword": "#ffffff",
+    "macro": "#867edf",
+    "class": "#c48ed1",
+    "type": "#c48ed1",
+    "function": "#8ea9d1",
+    "variable": "#c0c0c0"
   }
 }
