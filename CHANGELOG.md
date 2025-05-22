@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.2.2] - 2025-05-09
+
+- Add colors for zig control flows and some operators.
+- Make bracket matching and word selection highlight more visible.
+
 ## [0.2.1] - 2025-05-19
 
 - Update inlay editor hints colors to match comments.

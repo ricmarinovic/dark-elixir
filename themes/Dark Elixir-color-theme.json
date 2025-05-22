@@ -29,6 +29,7 @@
   867edf                 purple
   df8c8c                 red
   ebcb8b                 yellow
+  dba849                 orange
   8ad092                 bright green
   6ec477                 green
 
@@ -78,11 +79,12 @@
     "editor.rangeHighlightBorder": "#333333c4",
     "editor.selectionBackground": "#60606070",
     "editor.selectionHighlightBackground": "#33333370",
-    "editor.selectionHighlightBorder": "#404040",
+    "editor.selectionHighlightBorder": "#606060",
     "editor.snippetFinalTabstopHighlightBorder": "#999999",
     "editor.snippetTabstopHighlightBackground": "#333333dd",
+    "editorBracketHighlight.unexpectedBracket.foreground":"#ff1212cc",
     "editorBracketMatch.background": "#000000",
-    "editorBracketMatch.border": "#707070",
+    "editorBracketMatch.border": "#ffffff",
     "editorCodeLens.foreground": "#606060",
     "editorCursor.background": "#000000",
     "editorCursor.foreground": "#ffffff",
@@ -356,6 +358,9 @@
         "keyword.control.pseudo-method",
         "keyword.control.directive",
         "keyword.control.flow.zig",
+        "keyword.control.trycatch.zig",
+        "keyword.control.async.zig",
+        "keyword.statement.zig",
         "keyword.other.unsafe.rust",
         "support.function.log.rust",
         "support.type.python",
@@ -516,6 +521,8 @@
         "keyword.operator.arithmetic",
         "keyword.operator.other",
         "keyword.operator.c",
+        "keyword.operator.bitwise.zig",
+        "keyword.operator.question.zig",
         "keyword.operator.sigil.rust"
       ],
       "settings": {
@@ -537,7 +544,6 @@
         "punctuation.section",
         "punctuation.definition.map.elixir",
         "punctuation.separator.variable.ruby",
-        // "punctuation.separator.pointer-access",
         "punctuation.definition.begin.bracket",
         "punctuation.definition.end.bracket",
         "variable.other.anonymous.elixir",
