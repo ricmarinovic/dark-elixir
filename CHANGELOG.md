@@ -1,5 +1,14 @@
 # Change Log
 
+## [0.2.3] - ?
+
+- Make inlay hint background invisible.
+- Add debug colors.
+- Update find match colors.
+- Update peek colors.
+- More visibility for line numbers and current line.
+- Make borders a little bit more brighter throughout.
+
 ## [0.2.2] - 2025-05-09
 
 - Add colors for zig control flows and some operators.
