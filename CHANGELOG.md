@@ -1,6 +1,10 @@
 # Change Log
 
-## [0.2.3] - ?
+## [0.2.4] - 2026-02-27
+
+- Add Go syntax highlighting
+
+## [0.2.3] - 2025-05-24
 
 - Make inlay hint background invisible.
 - Add debug colors.
